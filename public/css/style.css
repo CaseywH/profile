@@ -75,11 +75,9 @@ body{
   color:#373434;
   text-align: center;
 }
-#section-b{
-  padding: 20px;
-  background: #f4f4f4;
-  color:#373434;
-  text-align: center;
+#section-a p{
+  width: 80%;
+  margin: auto;
 }
 
 #section-c{
@@ -89,6 +87,9 @@ body{
 #section-c div{
   padding: 20px;
   color: black;
+}
+.box1 h2{
+  text-align: center;
 }
 .box1{
 text-align: center;
@@ -102,7 +103,10 @@ flex-direction: column;
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  justify-content: space-evenly;
+}
+.box1 ul li{
+  width: 20%;
+  margin: auto;
 }
 .box1 ul a{
   color: black;
