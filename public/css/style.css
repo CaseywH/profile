@@ -65,10 +65,9 @@ body{
 
 #section-c{
   display: flex;
+  align-items: space-around;
 }
 #section-c div{
   padding: 20px;
-}
-#section-c .box1, #section-c .box3{
-  background: #f4f4f4
+  color: black;
 }
