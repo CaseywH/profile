@@ -35,10 +35,20 @@ body{
   color: black;
 }
 #showcase nav{
+  display: flex;
+  flex-direction: row;
   order: 1;
-  flex-basis: 100%
   align-items: space-around;
   padding-top: 2em;
+}
+@media screen and (max-width: 600px){
+  #showcase nav{
+    display: flex;
+    flex-direction: row;
+    order: 1;
+    align-items: space-around;
+    padding-top: 2em;
+  }
 }
  #showcase .nav-button{
   font-size: 18px;
