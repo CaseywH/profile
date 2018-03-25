@@ -15,49 +15,43 @@ body{
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   text-align: center;
   z-index: -10;
 }
 #showcase div{
-  order: 2;
+  order: 3;
 }
 #showcase div h1{
-  font-size: 50px;
+  font-size: 3em;
   line-height: 1.2;
   color: white;
 }
 
 #showcase p{
-  font-size: 20px;
-  padding: 20px 0 10px 0;
+  font-size: 1.5em;
+  padding: 1.5em 0 1em 0;
   color: black;
 }
 #showcase nav{
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
+  flex-wrap: wrap;
   order: 1;
   align-items: space-around;
-  padding-top: 2em;
+  padding: 2em 0 6em 0;
 }
-@media screen and (max-width: 600px){
-  #showcase nav{
-    display: flex;
-    flex-direction: row;
-    order: 1;
-    align-items: space-around;
-    padding-top: 2em;
-  }
-}
+
  #showcase .nav-button{
-  font-size: 18px;
+  font-size: 1em;
   text-decoration: none;
   color: black;
   border: black 1px solid;
   padding: 10px 20px;
   border-radius: 10px;
   margin: 20px;
+  flex-grow: 1;
 }
 #showcase .nav-button:hover{
   background: #d3d3d3;
@@ -88,6 +82,7 @@ body{
 #section-a p{
   width: 80%;
   margin: auto;
+  font-size: 1em;
 }
 
 #section-c{
@@ -100,6 +95,7 @@ body{
 }
 .box1 h2{
   text-align: center;
+  font-size: 3em;
 }
 .box1{
 text-align: center;
@@ -115,8 +111,8 @@ flex-direction: column;
   list-style-type: none;
 }
 .box1 ul li{
-  width: 20%;
   margin: auto;
+  font-size: 1.5em;
 }
 .box1 ul a{
   color: black;
@@ -127,4 +123,60 @@ flex-direction: column;
 }
 #projects{
   background: #f4f4f4;
+}
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 736px)
+  and (orientation: portrait) {
+    #showcase{
+      justify-content: space-between;
+    }
+    #showcase nav{
+      display: flex;
+      flex-direction: column;
+      align-items: space-around;
+      padding-top: 3em
+    }
+    #showcase .nav-button{
+     font-size: 3em;
+     text-decoration: none;
+     color: black;
+     border: black 1px solid;
+     padding: 1em 2em;
+     border-radius: 10px;
+     margin: 20px;
+   }
+   #showcase div{
+     padding-bottom: 10em;
+   }
+   #showcase p{
+     font-size: 1.5em;
+     padding: 1.5em 0 1em 0;
+     color: white;
+   }
+   #icons li{
+     color: white;
+     font-size: 5em;
+     list-style-type: none;
+   }
+   .box1 h2{
+     text-align: center;
+   }
+   .box1{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   }
+   .box1 ul {
+     width: 80%;
+     margin: auto;
+     padding: 1.5em 0 1.5em 0;
+     display: flex;
+     flex-direction: column;
+     list-style-type: none;
+   }
+   .box1 ul li{
+     margin: auto;
+     font-size: 3em;
+   }
 }
