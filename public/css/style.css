@@ -143,11 +143,13 @@ flex-direction: column;
     #showcase .nav-button{
      font-size: 3em;
      text-decoration: none;
+     text-align: center;
      color: black;
      border: black 1px solid;
      padding-top: 1em;
      border-radius: 10px;
-     margin: 20px;
+     width: 40%;
+     margin: auto;
    }
    #showcase div{
      padding-bottom: 10em;
