@@ -187,5 +187,6 @@ flex-direction: column;
    .box1 ul li{
      margin: auto;
      font-size: 3em;
+     order: 1;
    }
 }
