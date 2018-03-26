@@ -44,6 +44,9 @@ body{
 }
 
  #showcase .nav-button{
+   display: flex;
+   justify-content: center;
+   text-align: center;
   font-size: 1em;
   text-decoration: none;
   color: black;
