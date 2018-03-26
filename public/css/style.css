@@ -176,10 +176,11 @@ flex-direction: column;
    flex-direction: column;
    }
    .box1 ul {
-     width: 80%;
+     width: 90%;
      margin: auto;
      padding: 1.5em 0 1.5em 0;
      display: flex;
+     flex-wrap: wrap;
      flex-direction: column;
      list-style-type: none;
    }
