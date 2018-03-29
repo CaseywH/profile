@@ -3,34 +3,37 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link href="https://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title></title>
   </head>
   <body>
-    <header id="showcase">
+    <div id="landing">
       <nav>
-        <a href="#section-a" class="nav-button">About</a>
-        <a href="#skills" class="nav-button">Skills</a>
-        <a href="#projects" class="nav-button">Projects</a>
-        <a href="#" class="nav-button">Contact</a>
+        <a href="#section-a" class="bttn-bordered bttn-md">About</a>
+        <a href="#skills" class="bttn-bordered bttn-md">Skills</a>
+        <a href="#projects" class="bttn-bordered bttn-md">Projects</a>
+        <a href="mailto:cheinemeyer@gmail.com" class="bttn-bordered bttn-md">Contact</a>
       </nav>
-      <div>
+      <div id="title">
         <h1>Casey Heinemeyer</h1>
         <p>Emergency/Trauma RN, Web Developer</p>
-        <div id="socMedia">
-          <ul id="icons">
-            <li><a href="https://www.instagram.com/c_heinemeyer/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            <li><a href="https://github.com/CaseywH" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
+
+          <div class="icons">
+            <a href="https://www.instagram.com/c_heinemeyer/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://github.com/CaseywH" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+          </div>
+
       </div>
-    </header>
+    </div>
     <section id="section-a">
+      <h2 class="box-header">about</h2>
       <p>  For the past 13 years I have been in the medical field in various capacities. For the past 8 years I have worked in Emergency and Trauma. I have loved tech and seem to always be an early adopter of the latest inovation. As I began to reach a pinnacle in my career I wanted t find something that challenged me and developed a new skill. With the increase in online courses and training, I turned to web devlopment. In my day to day as an RN, I looked around and saw the need for tech in the nursing/medical field. I took these needs and began to learn and attempt to build out web apps for these ideas. </p>
     </section>
-    <section id="section-c">
-      <div class="box1">
-        <h2 id="skills">skills</h2>
+    <section id="section-b">
+      <div class="box b1">
+        <h2 class="box-header">skills</h2>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -40,8 +43,8 @@
         </ul>
       </div>
 
-      <div class="box1">
-        <h2 id="courses">Courses Completed</h2>
+      <div class="box b2">
+        <h2 class="box-header">courses completed</h2>
         <ul>
           <li><a href="https://www.udemy.com/the-web-developer-bootcamp/" target="_blank">The Web Developer Bootcamp</a></li>
           <li><a href="https://www.udemy.com/nodejs-express-mongodb-dev-to-deployment/" target="_blank">Node.js, Express & MongoDB Dev to Deployment</a></li>
@@ -51,8 +54,8 @@
         </ul>
       </div>
 
-      <div id="projects" class="box1">
-        <h2 >projects</h2>
+      <div class="box b3">
+        <h2 class="box-header">projects</h2>
         <ul>
           <li><a href="http://rnessentials.herokuapp.com/" target="_blank">RNessentials</a></li>
         </ul>
