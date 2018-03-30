@@ -36,14 +36,17 @@ color: white;
   width: 80%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 #landing nav a{
+  flex: 1;
   color: white;
   text-decoration: none;
   font-size: 2em;
   font-family: 'Cantarell', sans-serif;
   border: none;
+  text-align: center;
 }
 
 
@@ -73,9 +76,10 @@ color: white;
   text-align: center;
   width: 80%;
   margin: auto;
+  font-size: 1.25em;
 }
 #section-b div, #section-a{
-  padding-bottom: 2em;
+  padding: 2em 0 2em 0;
 }
 .box ul{
   list-style-type: none;
@@ -85,8 +89,14 @@ color: white;
   margin: auto;
 }
 .box li{
+  flex: 1;
   padding: 0;
   font-size: 1.5em;
+  color: black;
+  text-align: center;
+}
+.box a{
+  color: black;
 }
 .b2{
   background-color: #f1f1f1;
