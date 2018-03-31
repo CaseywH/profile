@@ -48,6 +48,9 @@ color: white;
   border: none;
   text-align: center;
 }
+#landing nav a:hover{
+  text-decoration: underline;
+}
 
 
 #title h1{
@@ -86,6 +89,7 @@ color: white;
   display: flex;
   justify-content: space-evenly;
   width: 80%;
+  padding-top: 10px;
   margin: auto;
 }
 .box li{
@@ -97,6 +101,9 @@ color: white;
 }
 .box a{
   color: black;
+}
+.box a:hover{
+  text-decoration: underline;
 }
 .b2{
   background-color: #f1f1f1;
