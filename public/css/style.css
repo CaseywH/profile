@@ -75,13 +75,14 @@ color: white;
   text-align: center;
   margin: auto;
 }
-#section-a p{
+#about p{
   text-align: center;
-  width: 80%;
+  width: 90%;
   margin: auto;
   font-size: 1.25em;
+  line-height: 2
 }
-#section-b div, #section-a{
+#courses,#projects, #skills{
   padding: 2em 0 2em 0;
 }
 .box ul{
@@ -105,6 +106,6 @@ color: white;
 .box a:hover{
   text-decoration: underline;
 }
-.b2{
+#about, .b2{
   background-color: #f1f1f1;
 }
