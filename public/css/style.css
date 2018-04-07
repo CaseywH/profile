@@ -55,7 +55,7 @@ color: white;
     opacity:1;
   }
 }
-@media (max-width: 650px){
+@media screen and (max-width: 600px) {
   #landing nav{
     flex-direction: column;
     flex-grow: 1;
@@ -83,9 +83,15 @@ color: white;
 #title h1{
   font-size: 4em;
 }
-@media (max-width: 650px){
+@media screen and (max-width: 600px) {
   #title h1{
     font-size: 2em;
+  }
+  #courses li{
+    font-size: 1em;
+  }
+  #courses ul{
+    align-items: baseline;
   }
 }
 
@@ -128,7 +134,7 @@ color: white;
 }
 .box li{
   flex: 1;
-  padding-top: 10px;
+  padding: 10px;
   font-size: 1.5em;
   color: black;
   text-align: center;
