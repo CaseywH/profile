@@ -37,7 +37,7 @@ color: white;
 
 @keyframes slidefade {
 100%{
-  opacity: 1;
+  opacity: 0.75;
   margin: 0;
 }
 }
@@ -52,7 +52,7 @@ color: white;
 }
 @keyframes fadein {
   100%{
-    opacity:1;
+    opacity:0.75;
   }
 }
 @media screen and (max-width: 600px) {
