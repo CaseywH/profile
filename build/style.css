@@ -3,8 +3,7 @@
   padding: 0;
 }
 body{
-  font-family: Raleway;
-  font-weight: 200;
+  font-family: 'Cantarell', sans-serif;
 }
 body a{
   text-decoration: none;
@@ -30,63 +29,28 @@ color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  opacity: 0;
-  animation: 1s slidefade 1s forwards;
-}
 
-
-@keyframes slidefade {
-100%{
-  opacity: 1;
-  margin: 0;
-}
 }
 
 #landing nav{
   width: 80%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  opacity: 0;
-  animation: 1s fadein 0.5s forwards;
 }
-@keyframes fadein {
-  100%{
-    opacity:1;
-  }
-}
-@media (max-width: 650px){
-  #landing nav{
-    flex-direction: column;
-    flex-grow: 1;
-    max-height: 50%
-  }
-}
-
-
-
 
 #landing nav a{
-  flex: 1;
   color: white;
   text-decoration: none;
   font-size: 2em;
-  font-family: Raleway;
+  font-family: 'Cantarell', sans-serif;
   border: none;
-  text-align: center;
 }
 #landing nav a:hover{
-  text-decoration: underline;
+  border: 1px solid white;
 }
-
 
 #title h1{
   font-size: 4em;
-}
-@media (max-width: 650px){
-  #title h1{
-    font-size: 2em;
-  }
 }
 
 .icons {
@@ -107,38 +71,25 @@ color: white;
   text-align: center;
   margin: auto;
 }
-#about p{
+#section-a p{
   text-align: center;
-  width: 90%;
+  width: 80%;
   margin: auto;
-  font-size: 1.25em;
-  line-height: 2
 }
-#courses,#projects, #skills{
-  padding: 2em 0 2em 0;
+#section-b div, #section-a{
+  padding-bottom: 2em;
 }
 .box ul{
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
   width: 80%;
-  padding-top: 10px;
   margin: auto;
-  flex-wrap: wrap;
 }
 .box li{
-  flex: 1;
-  padding-top: 10px;
+  padding: 0;
   font-size: 1.5em;
-  color: black;
-  text-align: center;
 }
-.box a{
-  color: black;
-}
-.box a:hover{
-  text-decoration: underline;
-}
-#about, .b2{
+.b2{
   background-color: #f1f1f1;
 }
