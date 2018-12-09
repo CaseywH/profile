@@ -124,7 +124,14 @@ body {
 
 .landing {
   align-content: center;
-  width: 50%; }
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 80%;
+  grid-template-rows: 2fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center; }
   .landing__background-image {
     position: absolute;
     z-index: -1;
@@ -155,9 +162,9 @@ body {
     animation: 1s fadein 0.5s forwards; }
     @media (max-width: 37.5em) {
       .landing__nav {
-        flex-direction: column;
-        flex-grow: 1;
-        max-height: 50%; } }
+        padding-top: 3rem;
+        height: 100%;
+        display: grid; } }
   .landing__icons {
     display: flex;
     width: 30%;
